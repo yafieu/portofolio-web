@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yafie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d817782b5f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="anjay.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="anjay.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#portofolio">My portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>SMK Telkom Purwokerto Student's</p>
+                <h1>Hello! Saya<span> Yafi Zikri Ramadhan Aditya </span> <br> dari SMK Telkom Purwokerto </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about------------- -->
+    <div id="Tentang saya">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Gambar1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hai, Nama saya Yafi Zikri Ramadhan Aditya biasa di panggil Yafi dari XI PPLG 1. Saya lahir di Purworejo, 12 Oktober 2006.
+                        Saya lulusan dari SMP Telkom Purwokerto dan Lanjut di SMK Telkom Purwokerto di jurusan PPLG
+                        (Pengembangan Perangkat Lunak dan Gim). Dan berikut Skil-skil yang sedang saya kembangkan :
+                        
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designer</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------portofolio-------------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <div class="layer">
+                    <h3>Bermain game</h3>
+                    <p>Saya mendalami permainan untuk hiburan dan untuk berprestasi.</p>
+                    <img src="pres.jpg" alt="menang" width="200" height="270">
+                    <img src="piala.jpg" alt="piala" width="200" height="270">
+                </div>
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h3>Figma</h3>
+                    <p>Saya mempelajari figma dan praktek untuk membuat prototype aplikasi.</p>
+                    <img src="figma.png">
+                </div>
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h3>Olahraga</h3>
+                    <p>Saya sempat mendalami olahraga renang dan mendapatkan juara. Sekarang olaharga hanya sekedar hobi seperti basket, bola, voli, dan lainnya.</p>
+                    <img src="jauara.jpg" alt="menangg" width="200" height="270">
+                    <img src="juara.jpg" alt="menang lagi" width="200" height="200">
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Lihat lagi</a>
+    </div>
+</div>
+<!-- ---------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Hubungi saya</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> yafieramadhanaditya@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+62882006741674</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/62882006741674/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://open.spotify.com/user/31zhzcehyr3hwe3s57cc3jfx4tku?si=7U-_ssZDTISdbW4AjBioGg"><i class="fa-brands fa-brands fa-spotify"></i></a>
+                    <a href="https://instagram.com/yavfiie?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Portofolio Yafi Zikri Ramadhan Aditya.XI PPLG 1_32</p>
+    </div>
+</div>
+</body>
+</html>
